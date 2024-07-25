@@ -1,0 +1,27 @@
+search engine
+
+pattern search ( String search , character search , digit search )  It will not do the line search
+
+LLM --  RAG algorithm ( chunk search  size - 30 or 40 or 60 word) 
+
+Generative AI -- regular Expresssion
+
+sample -- regular expression( re'\w+', sample )
+
+Generative AI ( Text) -- Sampling of data  or sample filter, blood sample -- preprocessing -- 0101  --- search ( sample of blood group -- 0101   - 100% to 50 %  --- )
+semantic search ( meaning co-orelation search ) or cognitive search 
+re.findall()
+re.search()
+re.split()
+re.sub() - replace a to b 
+
+search for a word
+[a-zA-Z0-9]
+\w   -- word match \W -- does not contain the character 
+\d --- digit match \D -- does not contain the digit
+\s -- white space match to split the word 
+^  -- Starting of the word  ex ^star$ starting, starts, started  -- star  ^  or \A 
+$ -- end of the word    $ or \Z    \Astar\Z
+
+
+

@@ -1,0 +1,12 @@
+---
+StudentName: Hari
+Age: 18
+College:
+   NAME: XYZ college
+   Branch: CSE
+   Department: ML
+
+Address:
+  Street: Mart Street
+  city: california 
+  

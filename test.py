@@ -1,0 +1,1 @@
+var1= int(input("Enter the number:"))
