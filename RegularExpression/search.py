@@ -7,7 +7,7 @@ if match:
     print(f"Found a URL: {match.group()}")
 
 text = "The color code is #FF5733."
-pattern = r'#[0-9a-fA-F]{6}'
+pattern = r'#[A-Fa-f0-9]{6}'
 match = re.search(pattern, text)
 if match:
     print(f"Found a hexadecimal number: {match.group()}")

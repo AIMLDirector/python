@@ -48,7 +48,7 @@ print(result)  # Output: ['14:00', '18:30']
 # Find All Words Starting with a Vowel
 
 text = "Apple, orange, banana, umbrella, egg."
-pattern = r'\b[^aeiouAEIOU]\w*\b'
+pattern = r'\b[aeiouAEIOU]\w*\b'
 result = re.findall(pattern, text)
 print(result)  # Output: ['Apple', 'orange', 'umbrella', 'egg']
 
